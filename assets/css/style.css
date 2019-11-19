@@ -16,10 +16,31 @@ img {
 }
 
 #name {
-    position: absolute;
-    top: 30%;
-    right: 15%;
-    color: white;
-    font-size: 50px;
+    color: rgb(92, 17, 17);
+    font-size: 30px;
     text-align: center;
+    font-family: 'Handlee, cursive';
+    position: absolute;
+    top: 20%;
+    right: 35%;
+}
+
+@media (max-width: 600px) {
+   #imgContainer {
+       height: 100vh;
+   }
+
+   #name {
+       top: 40%;
+       right: 10%;
+   }
+
+   img {
+       height: 100%;
+   }
+
+   .sticky-top {
+       margin: 0;
+       padding: 0;
+   }
 }
