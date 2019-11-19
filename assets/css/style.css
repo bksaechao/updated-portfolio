@@ -5,6 +5,10 @@ body {
     line-height: 1.7;
 }
 
+nav {
+    background-color: #46647a;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -17,7 +21,7 @@ img {
 }
 
 #name {
-    color: rgb(92, 17, 17);
+    color: #ffffff;
     font-size: 30px;
     text-align: center;
     font-family: 'Handlee, cursive';
@@ -26,21 +30,32 @@ img {
     right: 35%;
 }
 
+.btn {
+    background-color: #46647a;
+    color: #ffffff;
+    font-weight: lighter;
+    padding: 10px 20px;
+}
+
 @media (max-width: 600px) {
     nav {
         width: 600px;
     }
    #imgContainer {
        height: 100vh;
+       pointer-events: all;
    }
 
    #name {
        top: 40%;
-       right: 10%;
+       right: 7%;
+       font-size: 25px;
+       font-weight: bolder;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    }
 
    img {
-       height: 100%;
+       height: 95%;
    }
 
    .sticky-top {
@@ -52,6 +67,7 @@ img {
        margin-top: 70px;
        text-align: center;
    }
+
 
    #portfolioContainer {
        margin-top: 70px;
@@ -68,5 +84,27 @@ img {
 
    #contactContainer {
        margin-top: 90px;
+   }
+
+   #contactBtn {
+       background-color: #46647a;
+       color: #ffffff;
+       font-weight: lighter;
+       padding: 10px 20px;
+   }
+
+   #aboutBtn {
+    background-color: #46647a;
+    color: #ffffff;
+    font-weight: lighter;
+    padding: 10px 20px;
+}
+
+   a:hover {
+       text-decoration-line: none;
+   }
+
+   .w-100 {
+       text-align: center;
    }
 }
