@@ -6,11 +6,10 @@ body {
 
 nav {
     background-color: #46647a;
-    width: 100vw;
+    width: 100%;
 }
 
 .navbar-brand{
-
     font-size: 30px;
 }
 
@@ -59,11 +58,6 @@ footer {
        position: relative;
    }
 
-.sticky-top {
-    margin: 0;
-    padding: 0;
-}
-
    #aboutContainer {
        margin-top: 70px;
        text-align: center;
@@ -111,11 +105,6 @@ footer {
        margin-top: 30px;
    }
 
- 
-
-
-
-
    @media screen and (max-width: 1200px) {
        #name {
            right: 25%;
@@ -128,9 +117,6 @@ footer {
        }
 
        .btn {
-        background-color: #46647a;
-        color: #ffffff;
-        font-weight: lighter;
         font-size: 13px;
         padding: 10px 20px;
     }
@@ -142,8 +128,7 @@ footer {
         top: 43%;
         font-size: 25px;
        }
-   }
-
+    }
 
    
    @media screen and (max-width: 600px) {
@@ -166,18 +151,11 @@ footer {
     }
 
     #contactBtn, #aboutBtn {
-     background-color: #46647a;
-     color: #ffffff;
      font-size: 15px;
      padding: 10px 10px;
-     font-family: Arial, Helvetica, sans-serif;
-     font-weight: lighter;
  }
 
  .btn {
-     background-color: #46647a;
-     color: #ffffff;
-     font-weight: lighter;
      font-size: 15px;
      padding: 10px 20px;
  }
@@ -190,7 +168,7 @@ footer {
 
    @media screen and (max-width: 480px) {
     .navbar-brand {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     #name {
@@ -198,18 +176,11 @@ footer {
     }
 
     #contactBtn, #aboutBtn {
-     background-color: #46647a;
-     color: #ffffff;
      font-size: 12px;
      padding: 10px 10px;
-     font-family: Arial, Helvetica, sans-serif;
-     font-weight: lighter;
  }
 
  .btn {
-     background-color: #46647a;
-     color: #ffffff;
-     font-weight: lighter;
      font-size: 10px;
      padding: 10px 20px;
  }
@@ -228,23 +199,21 @@ footer {
        #name {
            font-size: 18px;
            right: 50px;
+           top: 40%;
        }
 
        #contactBtn, #aboutBtn {
-        background-color: #46647a;
-        color: #ffffff;
         font-size: 12px;
         padding: 10px 10px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: lighter;
     }
 
     .btn {
-        background-color: #46647a;
-        color: #ffffff;
-        font-weight: lighter;
         font-size: 15px;
         padding: 10px 20px;
+    }
+
+    #portrait {
+        height: 92%;
     }
 
     #bks {
