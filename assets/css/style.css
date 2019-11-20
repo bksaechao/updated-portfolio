@@ -59,14 +59,6 @@ footer {
        position: relative;
    }
 
-   #trivia {
-       height: 365px;
-   }
-
-   #eeyore {
-       height: 173px;
-   }
-
 .sticky-top {
     margin: 0;
     padding: 0;
@@ -106,7 +98,7 @@ footer {
        text-decoration-line: none;
    }
 
-   .w-100 {
+   .concard {
        text-align: center;
        margin-bottom: 50px;
    }
@@ -220,10 +212,18 @@ footer {
        }
    }
 
-   @media screen and (max-width: 768px) {
+   @media screen and (max-width: 991px) {
        #name {
            left: 25%;
        }
+
+       .btn {
+        background-color: #46647a;
+        color: #ffffff;
+        font-weight: lighter;
+        font-size: 13px;
+        padding: 10px 20px;
+    }
    }
 
    @media screen and (max-width: 900px) {
@@ -235,13 +235,5 @@ footer {
    @media screen and (max-width: 1200px) {
        #name {
            right: 25%;
-       }
-
-       #trivia {
-           height: 360px;
-       }
-
-       #eeyore {
-           height: 175px;
        }
    }
