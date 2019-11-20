@@ -3,10 +3,8 @@ $(document).ready(function () {
     $('.nav-item, #contactBtn, #aboutBtn').click(function () {
         $('html, body').animate({
             scrollTop: $($(this).attr('href')).offset().top
-        }, 1000);
+        }, 1200);
 
         $('.navbar-collapse').collapse('hide');
-
-        return false;
     });
 });
