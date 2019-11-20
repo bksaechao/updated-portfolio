@@ -5,6 +5,8 @@ $(document).ready(function () {
             scrollTop: $($(this).attr('href')).offset().top
         }, 1000);
 
+        $('.navbar-collapse').collapse('hide');
+
         return false;
     });
 });
