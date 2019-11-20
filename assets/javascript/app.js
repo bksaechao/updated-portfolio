@@ -7,4 +7,10 @@ $(document).ready(function () {
 
         $('.navbar-collapse').collapse('hide');
     });
+
+    $(".navbar-brand").on('click', function (event) {
+        event.preventDefault();
+    });
 });
+
+
