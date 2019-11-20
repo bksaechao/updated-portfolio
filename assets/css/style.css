@@ -2,6 +2,7 @@ body {
     width: 100vw;
     overflow-x: hidden;
     line-height: 1.7;
+    height: 100%;
 }
 
 nav {
@@ -33,6 +34,20 @@ nav {
 .fas, .far, .fab  {
     font-size: 30px;
 }
+/* About Icons */
+.fa-html5, 
+.fa-css3-alt, 
+.fa-js-square, 
+.fa-node-js,
+.meow,
+.fa-gitlab {
+    font-size: 100px;
+}
+/* TECHNOLOGIES */
+h3 {
+    background-color: #46647a;
+    color: #ffffff;
+}
 
 footer {
     background-color: #333333;
@@ -43,13 +58,13 @@ footer {
     padding-top: 20px;
     margin-top: 250px;
 }
-
+/* Introduction Page Container */
    #imgContainer {
        height: 100vh;
        padding: 0;
    }
 
-
+/* Intro Image */
    #portrait {
        height: 100vh;
        width: 100vw;
@@ -60,21 +75,36 @@ footer {
 
    #aboutContainer {
        margin-top: 70px;
-       text-align: center;
+       margin-bottom: 200px;
+       padding: 0px 60px 0px 0px;
    }
 
-
+/* portfolio section */
    #portfolioContainer {
-      margin-top: 70px;
-       text-align: center;
+      margin-top: 50px;
+      text-align: center;
+      background-color: #f1f0f0
    }
 
-   #myPortfolio {
-       margin-bottom: 30px;
+   .myWorks {
+       padding: 50px;
+   }
+
+   .card-img-top {
+       width: 100%;
+       height: 250px;
+   }
+
+   .port {
+       width: 450px;
+       height: 500px;
+   }
+   
+   .cardRow-1 {
+       margin-bottom: 20px;
    }
 
    #contactContainer {
-       margin-top: 90px;
        text-align: center;
    }
 
@@ -85,8 +115,7 @@ footer {
        padding: 15px 25px;
        font-family: Arial, Helvetica, sans-serif;
        font-weight: lighter;
-   }
-   
+   }  
 
    a:hover {
        text-decoration-line: none;
@@ -98,7 +127,8 @@ footer {
    }
 
    #bks {
-       width: 30%;
+       width: 100%;
+       height: 100%;
    }
 
    .phone {
@@ -161,7 +191,7 @@ footer {
  }
 
  #bks {
-     width: 80%;
+     width: 100%;
  }
 
    }

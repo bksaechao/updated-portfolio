@@ -54,7 +54,10 @@
     <!-- About page -->
     <div id="aboutContainer" class="container-fluid">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-4">
+                <img id="bks" class="rounded shadow" src="assets/images/Bks.jpg">
+            </div>
+            <div class="aboutDiv col-md-8 text-left">
                 <h1>BRIAN SAECHAO</h1>
                 <h6>ENTRY WEB DEVELOPER</h6>
                 <p>Web Developer in training who is highly eager to expand current knowledge, work experience, and
@@ -64,34 +67,30 @@
                     technological skills, it is important to be a strong communicator as well. Although web applications
                     can be built alone, I believe that collaborative work creates more inspiring applications for
                     others.</p>
+                <h3 class="text-center">TECHNOLOGIES</h3>
+                <div class="d-flex justify-content-around"><i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js-square"></i></div>
+                <div class="d-flex justify-content-around"><i class="fab fa-node-js"></i> <i
+                        class="fab fa-github meow"></i>
+                    <i class="fab fa-gitlab"></i></div>
             </div>
         </div>
-        <img id="bks" class="rounded-circle" src="assets/images/Bks.jpg">
-        <div class="row">
-            <div class="col-md-12">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet nobis, optio culpa, et consequuntur
-                    sequi magnam unde alias adipisci temporibus dicta libero aspernatur, quibusdam molestias earum
-                    architecto cumque dignissimos numquam? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Perferendis facilis impedit animi. Sequi non omnis cupiditate quaerat praesentium provident.
-                    Exercitationem, odio architecto tenetur eaque natus ipsa perferendis rem placeat commodi!</p>
-            </div>
-        </div>
-        <a name="portfolio" id="portfolio"></a>
     </div>
+    <a name="portfolio" id="portfolio"></a>
     <!-- About page END -->
 
     <!-- Portfolio page -->
-    <div id="portfolioContainer" class="container">
-        <div id="myPortfolio" class="row">
+    <div id="portfolioContainer" class="container-fluid">
+        <div class="row">
             <div class="col-md-12">
-                <h1>My Works</h1>
+                <h1 class="myWorks">My Works</h1>
             </div>
         </div>
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center cardRow-1">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card shadow">
-                        <img src="assets/images/fooodieee.png" class="card-img-top" alt="crystalCollector">
+                    <div class="port card shadow">
+                        <img src="assets/images/fooodieee.png" class="card-img-top" alt="foodie">
                         <div class="card-body">
                             <h5 class="card-title">Foodie App</h5>
                             <p class="card-text">Collaborative group project which enables users to find nearby
@@ -102,7 +101,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card shadow">
+                    <div class="port card shadow">
                         <img id="eeyore" src="assets/images/eeyore.png" class="card-img-top" alt="eyeore">
                         <div class="card-body">
                             <h5 class="card-title">Giphy API</h5>
@@ -117,7 +116,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card shadow">
+                    <div class="port card shadow">
                         <img src="assets/images/train.png" class="card-img-top" alt="train-scheduler">
                         <div class="card-body">
                             <h5 class="card-title">Train Scheduler</h5>
@@ -136,7 +135,7 @@
         <div class="d-flex justify-content-center">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="card shadow">
+                    <div class="port card shadow">
                         <img src="assets/images/crystal-collector.png" class="card-img-top" alt="crystal-collector">
                         <div class="card-body">
                             <h5 class="card-title">Crystal Colletor</h5>
@@ -148,7 +147,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="card shadow">
+                    <div class="port card shadow">
                         <img id="trivia" src="assets/images/trivia.png" class="card-img-top" alt="trivia">
                         <div class="card-body">
                             <h5 class="card-title">Random Trivia</h5>
@@ -163,9 +162,7 @@
                 </div>
             </div>
         </div>
-
     </div>
-
     <a name="contact" id="contact"></a>
     <!-- Portfolio page END -->
 
@@ -204,7 +201,6 @@
 
     <!-- Footer -->
     <footer>&copy; Copyright 2019</footer>
-
 
     <script src="https://kit.fontawesome.com/d69292e636.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
