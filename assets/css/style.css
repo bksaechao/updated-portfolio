@@ -113,11 +113,11 @@ footer {
 
    @media screen and (max-width: 320px) {
        .navbar-brand {
-           font-size: 18px;
+           font-size: 5px;
        }
 
        #name {
-           font-size: 18px;
+           font-size: 5px;
        }
 
        #contactBtn, #aboutBtn {
@@ -142,6 +142,38 @@ footer {
     }
    }
 
+   @media screen and (max-width: 360px) {
+    .navbar-brand {
+        font-size: 18px;
+    }
+
+    #name {
+        font-size: 15px;
+    }
+
+    #contactBtn, #aboutBtn {
+     background-color: #46647a;
+     color: #ffffff;
+     font-size: 10px;
+     padding: 10px 10px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: lighter;
+ }
+
+ .btn {
+     background-color: #46647a;
+     color: #ffffff;
+     font-weight: lighter;
+     font-size: 8px;
+     padding: 10px 20px;
+ }
+
+ #bks {
+     width: 100%;
+ }
+}
+
+
    @media screen and (max-width: 480px) {
     .navbar-brand {
         font-size: 20px;
@@ -154,7 +186,7 @@ footer {
     #contactBtn, #aboutBtn {
      background-color: #46647a;
      color: #ffffff;
-     font-size: 12px;
+     font-size: 10px;
      padding: 10px 10px;
      font-family: Arial, Helvetica, sans-serif;
      font-weight: lighter;
@@ -164,7 +196,7 @@ footer {
      background-color: #46647a;
      color: #ffffff;
      font-weight: lighter;
-     font-size: 15px;
+     font-size: 10px;
      padding: 10px 20px;
  }
 
