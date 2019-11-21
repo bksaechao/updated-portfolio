@@ -78,8 +78,10 @@ h3 {
 }
 
    #bks {
-       width: 70%;
-       height: 80%;
+       margin-left: 10px;
+       width: 100%;
+       height: 70%;
+       border-radius: 10%;
    }
 
    .resume {
@@ -87,9 +89,9 @@ h3 {
        text-align: center;
        padding: 10px 0px;
        background-color: #d1262f;
-       color: white;
+       color: #ffffff;
        width: 40%;
-       margin-left: 50px;
+       margin-left: 110px;
        margin-top: 30px;
    }
 
@@ -98,7 +100,7 @@ h3 {
    }
 
    #aboutContainer {
-       margin-top: 100px;
+       margin-top: 70px;
        margin-bottom: 200px;
        padding: 0px 60px 0px 0px;
    }
@@ -110,7 +112,6 @@ h3 {
       background-color: #f1f0f0;
       margin-bottom: 40px;
    }
-
 
    .myWorks {
        padding: 50px;
@@ -131,8 +132,8 @@ h3 {
    }
 
    #contactContainer {
-       text-align: center;
        margin-top: 150px;
+       text-align: center;
    }
 
    .contact-card-div {
@@ -143,10 +144,12 @@ h3 {
        text-decoration-line: none;
    }
 /* Contact Page */
-   .concard {
-       text-align: center;
-       height: 150px;
-       width: 250px;
+   .cardDiv {
+       height: 160px;
+   }
+
+   .conPad {
+       width: 100vw;
    }
 
 
@@ -159,47 +162,65 @@ footer {
     padding-top: 20px;
     margin-top: 250px;
 }
-   @media screen and (max-width: 1200px) {
-       #name {
-           right: 25%;
-       }
-   }
-
-   @media screen and (max-width: 991px) {
-       #name {
-           left: 25%;
-       }
-
-       .btn {
-        font-size: 13px;
-        padding: 10px 20px;
-    }
-   }
-
-   @media screen and (max-width: 900px) {
-       #name {
-        right: 100px;
-        top: 43%;
-        font-size: 25px;
-       }
-    }
 
    
-   @media screen and (max-width: 600px) {
+   @media only screen and (min-width: 992px) and (max-width: 1200px) {
        #name {
            right: 100px;
            top: 43%;
            font-size: 23px;
        }
-   }
 
-   @media screen and (max-width: 535px) {
+       .card-img-top {
+        width: 100%;
+        height: 150px;
+    }
+    
+    .port {
+        width: 300px;
+        height: 400px;
+        font-size: 14px;
+    }
+    
+     #bks {
+         width: 103%;
+         height: 80%;
+         border-radius: 10%;
+         margin-left: 10px; 
+        }
+    
+        #aboutDiv {
+            font-size: 15px;
+        }
+    
+     .resume {
+        font-size: 14px;
+        margin-left: 20px;
+        width: 95%;
+    }
+    
+    .fa-html5, 
+    .fa-css3-alt, 
+    .fa-js-square, 
+    .fa-node-js,
+    .meow,
+    .fa-gitlab {
+        font-size: 100px;
+    }
+    
+    .cardDiv {
+         height: 150px;
+         font-size: 16px;
+    }
+}
+
+   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .navbar-brand {
         font-size: 25px;
     }
 
     #name {
-        font-size: 23px;
+        font-size: 25px;
         right: 65px;
         top: 43%;
     }
@@ -214,49 +235,133 @@ footer {
      padding: 10px 20px;
  }
 
- #bks {
-     width: 100%;
- }
+ .card-img-top {
+    width: 100%;
+    height: 150px;
+}
 
+.port {
+    width: 250px;
+    height: 400px;
+    font-size: 12px;
+}
+
+.portPad {
+    padding: 0;
+}
+
+.cardRow-1 {
+    margin-bottom: 0;
+}
+
+ #bks {
+     width: 104%;
+     height: 75%;
+     border-radius: 10%;
+     margin-left: 10px; 
+    }
+
+    #aboutDiv {
+        font-size: 15px;
+    }
+
+ .resume {
+    font-size: 14px;
+    margin-left: 20px;
+    width: 95%;
+}
+
+.fa-html5, 
+.fa-css3-alt, 
+.fa-js-square, 
+.fa-node-js,
+.meow,
+.fa-gitlab {
+    font-size: 60px;
+}
+
+.cardDiv {
+    height: 150px;
+    font-size: 16px;
+}
+
+/* #contactContainer {
+    width: 100vw;
+    padding: 0;
+}
+
+.conPad {
+    padding: 0;
+    width: 250px;
+} */
    }
 
-   @media screen and (max-width: 480px) {
+   @media only screen and (min-width: 480px) and (max-width: 767px) {
     .navbar-brand {
         font-size: 20px;
     }
 
     #name {
-        font-size: 18px;
+        font-size: 20px;
+        right: 30px;
+        top: 40%;
     }
 
     #contactBtn, #aboutBtn {
-     font-size: 12px;
+     font-size: 15px;
      padding: 10px 10px;
  }
 
  .btn {
-     font-size: 10px;
+     font-size: 15px;
      padding: 10px 20px;
  }
 
- #portratait {
+ #portrait {
      height: 92%;
  }
 
+ #aboutDiv {
+     text-align: center;
+     margin-left: 10px;
+ }
+
  #bks {
+     border-radius: 10%;
+     margin-left: 20px;
      width: 100%;
  }
 
-   }
+ .resume {
+     font-size: 14px;
+     margin-left: 25px;
+     width: 95%;
+ }
 
-   @media screen and (max-width: 320px) {
+ .cardRow-1 {
+     margin-bottom: 0;
+ }
+
+ .port {
+     width: 95%;
+     margin-left: 10px;
+     margin-bottom: 20px;
+ }
+
+   .cardDiv {
+       width: 95%;
+       margin-bottom: 20px;
+   }
+}
+
+   @media only screen and (min-width: 320px) and (max-width: 479px) {
        .navbar-brand {
            font-size: 20px;
        }
 
        #name {
            font-size: 18px;
-           right: 50px;
+           right: 1px;
            top: 40%;
        }
 
@@ -274,7 +379,35 @@ footer {
         height: 92%;
     }
 
+    #aboutDiv {
+        text-align: center;
+        margin-left: 10px;
+    }
+
     #bks {
+        border-radius: 10%;
+        margin-left: 20px;
         width: 100%;
     }
-   }
+
+    .resume {
+        font-size: 14px;
+        margin-left: 25px;
+        width: 95%;
+    }
+
+    .cardRow-1 {
+        margin-bottom: 0;
+    }
+
+    .port {
+        margin-bottom: 20px;
+    }
+
+    .cardDiv {
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    
+}
+   
