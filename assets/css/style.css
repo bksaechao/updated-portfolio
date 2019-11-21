@@ -9,7 +9,7 @@ body {
        background-color: #46647a;
        color: #ffffff;
        font-size: 16px;
-       padding: 15px 25px;
+       padding: 10px 25px;
        font-family: Arial, Helvetica, sans-serif;
        font-weight: lighter;
    }
@@ -166,9 +166,13 @@ footer {
    
    @media only screen and (min-width: 992px) and (max-width: 1200px) {
        #name {
-           right: 100px;
+           right: 170px;
            top: 43%;
-           font-size: 23px;
+           font-size: 30px;
+       }
+
+       #contactBtn, #aboutBtn {
+           font-size: 15px;
        }
 
        .card-img-top {
@@ -220,14 +224,14 @@ footer {
     }
 
     #name {
-        font-size: 25px;
-        right: 65px;
+        font-size: 30px;
+        right: 150px;
         top: 43%;
     }
 
     #contactBtn, #aboutBtn {
      font-size: 15px;
-     padding: 10px 10px;
+     padding: 10px 25px;
  }
 
  .btn {
@@ -285,15 +289,6 @@ footer {
     font-size: 16px;
 }
 
-/* #contactContainer {
-    width: 100vw;
-    padding: 0;
-}
-
-.conPad {
-    padding: 0;
-    width: 250px;
-} */
    }
 
    @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -302,9 +297,9 @@ footer {
     }
 
     #name {
-        font-size: 20px;
-        right: 30px;
-        top: 40%;
+        font-size: 25px;
+        right: 5px;
+        top: 35%;
     }
 
     #contactBtn, #aboutBtn {
