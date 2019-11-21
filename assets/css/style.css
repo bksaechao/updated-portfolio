@@ -48,12 +48,12 @@ nav {
 
 #name {
     color: #ffffff;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: absolute;
     top: 40%;
-    right: 30%;
+    right: 21%;
 }
 
 .btn {
@@ -174,7 +174,7 @@ footer {
    
    @media only screen and (min-width: 992px) and (max-width: 1200px) {
        #name {
-           right: 170px;
+           right: 20%;
            top: 43%;
            font-size: 30px;
        }
@@ -233,8 +233,8 @@ footer {
 
     #name {
         font-size: 30px;
-        right: 150px;
-        top: 43%;
+        right: 14%;
+        top: 35%;
     }
 
     #contactBtn, #aboutBtn {
@@ -305,8 +305,8 @@ footer {
     }
 
     #name {
-        font-size: 25px;
-        right: 5px;
+        font-size: 23px;
+        right: 5%;
         top: 35%;
     }
 
