@@ -1,8 +1,12 @@
 body {
     width: 100vw;
-    overflow-x: hidden;
     line-height: 1.7;
+    overflow-x: hidden;
     height: 100%;
+}
+
+html {
+    overflow-x: hidden;
 }
 /* Intro Page */
    #contactBtn, #aboutBtn {
